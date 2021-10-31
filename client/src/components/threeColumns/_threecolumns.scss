@@ -1,0 +1,15 @@
+.main-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: blue; 
+}
+
+.main-container > * {
+    height: 100%; 
+    width: 33.3%;
+    background: blue; 
+}
+
